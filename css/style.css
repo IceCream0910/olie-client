@@ -1,0 +1,60 @@
+html {
+    background: #181a1c;
+    color: #fff;
+}
+
+body {
+    margin: 20px;
+}
+
+.orange {
+    color: #ff8552;
+}
+
+.card {
+    border-radius: 20px;
+    background: #292929;
+    box-shadow: 20px 20px 60px #232323, -20px -20px 60px #2f2f2f;
+    padding: 10px 15px;
+}
+
+.albumart-big {
+    width: 25%;
+    border-radius: 20px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.song-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -60px;
+    width: 60%;
+}
+
+.song-text #title {
+    padding-top: -50px;
+    margin-bottom: 20px;
+    text-overflow: ellipsis;
+}
+
+.song-text #artist {
+    margin-top: -20px;
+    text-overflow: ellipsis;
+}
+
+.song-text-serve {
+    margin-top: 20px;
+    width: 90%;
+}
+
+.song-text-serve #title-serve {
+    padding-top: -50px;
+    margin-bottom: 20px;
+    text-overflow: ellipsis;
+}
+
+.song-text-serve #artist-serve {
+    margin-top: -20px;
+    text-overflow: ellipsis;
+}
