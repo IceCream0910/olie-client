@@ -3,7 +3,6 @@
 <head>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
-    <script src="js/main.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -16,7 +15,7 @@
     <h3>요즘 인기<span class="text orange">🔥</span></h3>
 
     <div class="card">
-        <div class="song-card-big" onclick="javascript:callbackToParent();">
+        <div class="song-card-big song-list" id="song-list" data-title="title" data-artist="artist">
             <img class="albumart-big" id="albumart-chart">
             <div class="song-text">
                 <h3 id="title">제목</h3>
@@ -33,5 +32,7 @@
     <br> 더 많은 기능 준비중입니다.
 
 </body>
+
+<script src="js/main.js"></script>
 
 </html>
